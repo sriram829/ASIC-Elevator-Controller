@@ -1,0 +1,17 @@
+ncsim(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm elevator_controller_tb.clk elevator_controller_tb.current_floor elevator_controller_tb.door_close_btn elevator_controller_tb.door_close_cmd elevator_controller_tb.door_closed_sensor elevator_controller_tb.door_open_btn elevator_controller_tb.door_open_cmd elevator_controller_tb.door_open_sensor elevator_controller_tb.emergency_stop elevator_controller_tb.floor_sensor elevator_controller_tb.hall_down_req elevator_controller_tb.hall_up_req elevator_controller_tb.in_car_req elevator_controller_tb.maintenance_mode elevator_controller_tb.motor_brake elevator_controller_tb.motor_down elevator_controller_tb.motor_up elevator_controller_tb.overload elevator_controller_tb.pending_debug elevator_controller_tb.rst_n
+Created probe 1
+ncsim> run
+Simulation stopped via $stop(1) at time 2170 NS + 0
+ncsim> ^C
+ncsim> exit
+...Regained control from SimVision
+-------------------------------------
+ncsim: Memory Usage - 38.6M program + 294.8M data = 333.5M total (337.0M Peak)
+ncsim: CPU Usage - 40.6s system + 24.7s user = 65.3s total (4663.2s, 1.4% cpu)

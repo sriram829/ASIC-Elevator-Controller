@@ -1,0 +1,21 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2022 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+[04:13:45.275849] Configured Lic search path (21.01-s002): 5280@14.139.1.126
+
+Version: 21.14-s082_1, built Thu Jun 23 02:02:08 PDT 2022
+Options: legacy_ui 
+Date:    Thu Dec 11 04:13:45 2025
+Host:    ChipINEDA06.sastra.edu (x86_64 w/Linux 4.18.0-425.3.1.el8.x86_64) (4cores*4cpus*1physical cpu*Intel(R) Xeon(R) CPU E3-1220 v6 @ 3.00GHz 8192KB) (32652116KB)
+PID:     2136688
+OS:      Red Hat Enterprise Linux release 8.7 (Ootpa)
+
+
+[04:13:45.245283] Periodic Lic check successful
+[04:13:45.245291] Feature usage summary:
+[04:13:45.245291] Genus_Synthesis
+Checking out license: Genus_Synthesis
+couldn't read file "legacy_ui": no such file or directory
+Abnormal exit.

@@ -1,0 +1,24 @@
+set ::TimeLib::tsgMarkCellLatchConstructFlag 1
+set conf_qxconf_file {NULL}
+set conf_qxlib_file {NULL}
+
+set defHierChar {/}
+
+set init_design_settop 1
+
+set init_gnd_net {VSS}
+set init_pwr_net {VDD}
+
+set init_lef_file { 
+    /home/install/FOUNDRY/digital/90nm/dig/lef/gsclib090_translated.lef
+}
+
+set init_mmmc_file {Default.view}
+
+set init_verilog { elevator_netlist.v }
+
+set init_top_cell elevator_controller
+
+set lsgOCPGainMult 1.0
+set pegDefaultResScaleFactor 1.0
+set pegDetailResScaleFactor 1.0
